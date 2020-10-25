@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<head>
+ <!-- Weird triangles animating -->
+  
+<title>Trippy Triangles</title>
+
+<style>
+  html{
+  height: 100%;
+}
+body {
+  height: 100%;
+background: #000000; 
+
+
+}
+
+.wrapper {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.triangles {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 100%;
+  height: 100%;
+  transform: translate(-50%, -50%);
+}
+
+.triangle {
+  fill: none;
+  stroke: #C9BAFE;
+  stroke-width: 10;
+  transform-origin: center center;
+  animation: triangle-animation 10s linear infinite;
+}
+.triangle-1 {
+  animation-delay: 0s;
+  stroke:#A7DC50;
+}
+.triangle-2 {
+  animation-delay: -0.5s;
+  stroke:#DC50B4;
+}
+.triangle-3 {
+  animation-delay: -1s;
+  stroke:#70CEF5;
+}
+.triangle-4 {
+  animation-delay: -1.5s;
+  stroke:#F3F570;
+}
+.triangle-5 {
+  animation-delay: -2s;
+  stroke:#EF210C;
+}
+.triangle-6 {
+  animation-delay: -2.5s;
+  stroke: #8F0CEF;
+}
+.triangle-7 {
+  animation-delay: -3s;
+  stroke: #0CE5EF;
+}
+.triangle-8 {
+  animation-delay: -3.5s;
+  stroke: #EF0CC9;
+}
+.triangle-9 {
+  animation-delay: -4s;
+  stroke:#3B8BFF;
+}
+.triangle-10 {
+  animation-delay: -4.5s;
+  stroke:#10D331;
+}
+.triangle-11 {
+  animation-delay: -5s;
+  stroke:#FE6E27;
+}
+.triangle-12 {
+  animation-delay: -5.5s;
+  stroke:#F08AB2;
+}
+.triangle-13 {
+  animation-delay: -6s;
+  stroke:#FFE62F;
+}
+.triangle-14 {
+  animation-delay: -6.5s;
+  stroke:#2FFFD3;
+}
+.triangle-15 {
+  animation-delay: -7s;
+  stroke:#B02FFF;
+}
+.triangle-16 {
+  animation-delay: -7.5s;
+  stroke:#ffffff;
+}
+.triangle-17 {
+  animation-delay: -8s;
+  stroke:#78620A;
+}
+.triangle-18 {
+  animation-delay: -8.5s;
+  stroke:#cccccc;
+}
+.triangle-19 {
+  animation-delay: -9s;
+  stroke:#3A0A78;
+}
+.triangle-20 {
+  animation-delay: -9.5s;
+}
+
+@keyframes triangle-animation{
+  0%{
+    transform: scale(0) rotate(0deg);
+    opacity: 1;
+  }
+  
+  100%{
+    transform: scale(3) rotate(45deg);
+    opacity: 0;
+  }
+}
+
+</style>
+</head>
+<body>
+
+<div class="wrapper">
+  <svg class="triangles" viewBox="0 0 1000 1000">
+    <polygon class="triangle triangle-1" points="500,200 750,650 240,650" />
+    <polygon class="triangle triangle-2" points="500,200 750,650 240,650" />
+    <polygon class="triangle triangle-3" points="500,200 750,650 240,650" />
+    <polygon class="triangle triangle-4" points="500,200 750,650 240,650" />
+    <polygon class="triangle triangle-5" points="500,200 750,650 240,650" />
+    <polygon class="triangle triangle-6" points="500,200 750,650 240,650" />
+    <polygon class="triangle triangle-7" points="500,200 750,650 240,650" />
+    <polygon class="triangle triangle-8" points="500,200 750,650 240,650" />
+    <polygon class="triangle triangle-9" points="500,200 750,650 240,650" />
+    <polygon class="triangle triangle-10" points="500,200 750,650 240,650" />
+    <polygon class="triangle triangle-11" points="500,200 750,650 240,650" />
+    <polygon class="triangle triangle-12" points="500,200 750,650 240,650" />
+    <polygon class="triangle triangle-13" points="500,200 750,650 240,650" />
+    <polygon class="triangle triangle-14" points="500,200 750,650 240,650" />
+    <polygon class="triangle triangle-15" points="500,200 750,650 240,650" />
+    <polygon class="triangle triangle-16" points="500,200 750,650 240,650" />
+    <polygon class="triangle triangle-17" points="500,200 750,650 240,650" />
+    <polygon class="triangle triangle-18" points="500,200 750,650 240,650" />
+    <polygon class="triangle triangle-19" points="500,200 750,650 240,650" />
+    <polygon class="triangle triangle-20" points="500,200 750,650 240,650" />
+  </svg>
+</div>
+
+</body></html>
